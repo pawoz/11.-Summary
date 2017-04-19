@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin|Walter+Turncoat');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.row:before, 
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+* {
+	box-sizing: border-box;
+	text-align: center;
+	font-family: 'Walter Turncoat', cursive;
+	text-transform: uppercase;
+}
+body {
+	mx-width: 1200px;
+	background-image: url('http://office-lernen.com/wp-content/media/2015/09/544229_46807367.jpg');
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.column {
+	float: left;
+	width: 33.3333%;
+	height: 100vh;
+	min-height: 100%;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	background: rgba(0, 0, 0, 0.3);
+}
+.board h1 {
+	margin: 10px;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+.board {
+	border: 1px solid black;
+}
+.create-column {
+	width: 150px;
+	height: 30px;
+	font-size: 14x;
+	margin-bottom: 10px;
+	border-radius: 2px;
+}
+.btn-delete {
+	float: right;
+	position: relative;
+	right: 0px;
+	top: -43px;
+	width: 25px;
+	height: 25px;
+}
+.column-add-card {
+	margin-bottom: 10px;
+}
+.btn-delete-card {
+	float: right;
+	position: relative;
+	right: -15px;
+	top: -15px;
+	width: 25px;
+	height: 25px;
+}
+.column h2 {
+	font-size: 24px;
+	margin: 10px;
+	width: 100%;
+}
+.add-card{
+	width: 120px;
+	border-radius: 2px;
+	margin: 5px;
+}
+.card {
+	background: rgba(0, 0, 0, 0.6);
+	padding: 15px;
+	overflow-wrap: break-word;
+	color: #fff;
+	margin: 0;
+	border-top: 0.5px solid black;	
+}
+p.card-description {
+	width: 100%;
+	text-align: left;
+}
+.card:first-child {
+	border-top: 0.5px solid black;	
+}
+ul {
+	min-height: 150px;
+}
