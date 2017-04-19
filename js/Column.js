@@ -6,7 +6,6 @@ function Column(id, name) {
 	this.$element = createColumn();
 
 	function createColumn() {
-// TWORZENIE NOWYCH WĘZŁÓW
 		var $column = $('<div>').addClass('column'),
 			$columnTitle = $('<h2>').addClass('column-title').text(self.name),
 			$columnCardList = $('<ul>').addClass('card-list'),
