@@ -12,7 +12,6 @@ function Column(id, name) {
 			$columnDelete = $('<button>').addClass('btn-delete').text('x'),
 			$columnAddCard = $('<button>').addClass('column-add-card').text('Dodaj kartę');
 		
-// PODPINANIE ODPOWIEDNICH ZDARZEŃ POD WĘZŁY
 		$columnDelete.click(function() {
 			self.removeColumn();
 		});
@@ -33,8 +32,7 @@ function Column(id, name) {
 				}
 			});
 		});
-			
-// KONSTRUOWANIE ELEMENTU KOLUMNY
+		
 		$column.append($columnTitle);
 		$column.append($columnDelete);
 		$column.append($columnAddCard);
